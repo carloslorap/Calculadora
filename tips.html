@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icono.png">
+  
+  <title>Tip calculator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+</head>
+<body>
+  <header class="header">
+    <h1 class="header_title">SPLI <br>TTER</h1>
+  </header>
+  <section class="calculator-container">
+
+    <div class="inputs-section">
+
+      <label for="bill" class="inputs-section_bill-label">Bill</label>
+      <input type="number" id="bill" class="inputs-section_bill-input" value="100">
+
+      <fieldset class="btns">
+        <legend class="btns_legend">Select Tip %</legend>
+        <button class="btns_button btns_button--selected">5%</button>
+        <button class="btns_button">10%</button>
+        <button class="btns_button">15%</button>
+        <button class="btns_button">25%</button>
+        <button class="btns_button">50%</button>
+        <input type="number" placeholder="Custom" class="btns_custom">
+      </fieldset>
+
+
+      <label for="people" class="inputs-section_people-label">Number of People <span id="alert"></span></label>
+      <input type="number" id="people" class="inputs-section_people-input " value="5" min="1">
+
+
+
+    </div>
+
+    <div class="result-section">
+      <div class="results">
+
+        <div>
+          <p class="results_tip-amount">Tip Amount</p>
+          <p class="results_tip-person">/ person</p>
+        </div>
+        <p class="results_tip-value">0</p>
+        <div>
+          <p class="results_total-amount">Total</p>
+          <p class="results_total-person">/ person</p>
+        </div>
+        <p class="results_total-value">0</p>
+
+      </div>
+      <button class="result-section_reset">Reset</button>
+
+    </div>
+
+  </section>
+
+
+  
+
+  
+
+ 
+  <script src="main.js"></script>
+
+</body>
+</html>

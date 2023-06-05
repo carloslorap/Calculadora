@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    background-image: url('../img/fondo.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+
+    
+ 
+} 
+
+.seccion{
+
+    height: 590px;
+    width: 92%;   
+    transform: translate(4%, 9%);
+    background-color:rgba(255, 255, 255, 0.89);
+    border-radius: 20px;
+  
+}
+
+.seccion header{
+  
+    height: 60px;
+    width: 100%;
+    padding-left: 30px; 
+
+}
+header li{
+    
+ 
+   
+    display: inline-block;
+    margin: 25px;
+    color: #57B0B7;
+    cursor: pointer;
+
+} 
+header li:nth-child(4){
+ background-color: #0193AA;
+ width: 60px;
+ height:20px;
+ text-align: center;
+ color: #0B3A58;
+ font-weight: 800;
+
+}
+
+.seccion2 {
+   
+    height: 90%;
+    display: flex;
+}
+.seccion2 .portada{
+ 
+    height: 100%;
+    width: 100%;
+}
+.seccion2 .portada .titulo{
+    height: 20%;
+    width: 250px;
+    position: relative;
+    left: 200px;
+    padding-top:60px;
+    
+
+}
+.seccion2 .portada .titulo h1{
+    
+    font-size: 40px;
+    
+
+}
+
+
+.seccion2 .portada .cont-boton{
+   
+    height: 50px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.seccion2 .portada .cont-boton .boton{
+   
+    height: 30px;
+    width: 35%;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    background: #40B5CB;
+    font-size: 13px;
+    cursor: pointer;
+
+   
+}
+.color1{
+    color: #40B5CB;
+    padding-left: 50px;
+    
+}
+.color2{
+    color: #0B3A58;
+}
